@@ -61,7 +61,11 @@ EXPLICACIÓN DEL CÓDIGO:
     - La función recibe dos parámetros: coefficients y modulos, siendo estos listas de números enteros (Se comprueba mediante el for).
     - Se comprueba que el número de coeficientes y módulos sea el mismo.
     - Se calcula el producto de todos los módulos, lo anterior en el trabajo llamado M.
-Tras ello, intera sobre los coeficientes y los módulos realizando los calculos necesarios para la obtención de x: Ci*Ni*Di. Para cada coeficiente y módulo, se calcula Ci, siendo el valor de M divido entre cada modulo. Tras ello, se calcula Di, siendo el inverso multiplicativo de Ci en el módulo, ejecutamos para ello la función anterior que permite hallar el inverso. Finalmente, se suma Ci*Ni*Di a la variable x. Finalmente para obtener la solución del sistema de congruencias, se calcula x % M (%: resto de la división).
+Tras ello, intera sobre los coeficientes y los módulos realizando los calculos necesarios para la obtención 
+de x: Ci*Ni*Di. Para cada coeficiente y módulo, se calcula Ci, siendo el valor de M divido entre cada modulo. 
+Tras ello, se calcula Di, siendo el inverso multiplicativo de Ci en el módulo, ejecutamos para ello la 
+función anterior que permite hallar el inverso. Finalmente, se suma Ci*Ni*Di a la variable x. Finalmente para 
+obtener la solución del sistema de congruencias, se calcula x % M (%: resto de la división).
 '''
 
 ## Mostrar la operación en la terminal
