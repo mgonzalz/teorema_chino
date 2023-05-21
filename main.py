@@ -1,4 +1,4 @@
-from teorema_chino import teorema_chino_resto, sistema
+from módulos.teorema_chino import teorema_chino_resto, sistema
 # Ejercicio del proyecto
 sol = [8, 3, 5]
 modulos = [13, 11, 8]
