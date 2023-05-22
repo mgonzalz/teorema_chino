@@ -1,6 +1,6 @@
 # PROGRAMA PARA LA RESOLUCION DE UN SISTEMA LINEAL DE CONGRUENCIA 
 
-## Importación de las librerias necesarias
+## Abrimos math: disponible dentro de Pythons
 
 from math import gcd
 
